@@ -1,0 +1,128 @@
+/* non ho modo di importare il font di Amazon */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* per impostare il colore di sfondo e togliere il margine così da attaccare la parte superiore */
+body{
+    background-color: lightgray;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* per allineare tutto al centro */
+.centro{
+    text-align: center;
+}
+/* banner del sito con il logo e la barra con le offerte. messo a zero dal top così da attaccarlo alla parete */
+#banner{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+/* colore background del logo */
+.logobkg{
+    background-color: rgb(35, 47, 62);
+}
+/* posizione e grandezza del logo */
+#logo{
+    width: 7%;
+    position: relative;
+    left: 32px;
+}
+/* la barra blu sotto con le offerte*/
+.barrablu{
+    background-color: #37475a;
+    color: white;
+    padding: 10px;
+
+}
+/* tutte le opzioni della barra blu */
+.barrasotto{
+    margin: 0;
+    display: inline;
+    margin: 11px;
+}
+/* da qui in poi devo creare dello spazio per centrare tutto il resto non essendoci margin nel body (il testo è già allineato) */
+#spazio{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* background scritta arancione per le gift cards */
+#holyday{
+    background-color: #e47911;
+    color: white;
+    margin-top: 100px;
+}
+/* scritta all'interno della barra arancione per mettere un pò di spazio */
+#gift{
+    padding: 7px;
+}
+/* guida delle gift cards */
+#guides{
+    background-image: url(bg-image.png);
+    text-align:center;
+    height: 150px;
+    background-size: 93%;
+}
+/* per posizionare al centro la scritta della guida */
+#gifter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+/* per aumentare il font della scritta */
+.big{
+    padding-top: 45px;
+    font-size: 200%;
+}
+/* mi serve che il bold sia block per fargli prendere tutta la riga e creare lo spazio*/
+b{
+    display: block;
+}
+/* prima serie di immagini che deve essere centrata */
+#perfect{
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+/* scritta sopra alla serie di immagini, il padding serve per non attaccarla alla parete e mettere un pò di spazio con la scritta Shop now*/
+.serie{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* scritta shop leggermente rimpicciolita e con aggiunta di un pò di margin*/
+.shop{
+    margin-left: 10px;
+    font-size: small;
+}
+/* grandezza delle foto della serie */
+.piccolo{
+    width: 331px;
+    height: 331px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* grandezza della prima foto della serie, è diversa per centrare le immagini con l'aggiunta di margin sinistro più grande */
+.piccolo1{
+    width: 331px;
+    height: 331px;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+/* foto successiva alla prima serie */
+#img9{
+    margin-top: 30px;
+    width: 100%;
+    height: 450px;
+}
+/* scritta back to top */
+#sotto{
+    text-decoration: underline;
+}
+/* logo nella parte inferiore della pagina */
+#logodown{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding: 60px;
+}
